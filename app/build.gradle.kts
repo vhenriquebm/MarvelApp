@@ -58,6 +58,10 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
 
+    // Activity and Fragment KTX for viewModels()
+    implementation("androidx.activity:activity-ktx:1.3.0")
+    implementation("androidx.fragment:fragment-ktx:1.3.6")
+
     // Coroutines Lifecycle
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0-alpha01")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0-alpha01")
